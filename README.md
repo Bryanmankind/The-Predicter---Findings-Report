@@ -229,7 +229,7 @@ if (block.timestamp > START_TIME + matchNumber * 86400 - 3600) {
 
 # Medium Risk Findings
 
-## <a id='M-02'></a>M-02. No check to ensure that a player is authorized to make a prediction.            
+## <a id='M-01'></a>M-01. No check to ensure that a player is authorized to make a prediction.            
 
 ## Summary  The `makePrediction` function doesn't check if a user is approved before allowing them to make a prediction. Implyng more than thirty persons and anyone can make a prediction. 
 
